@@ -1,0 +1,242 @@
+bandit5@bandit:~$ ls
+inhere
+bandit5@bandit:~$ cd inhere
+bandit5@bandit:~/inhere$ file -al
+file: invalid option -- 'a'
+Usage: file [-bcEhikLlNnprsvzZ0] [--apple] [--extension] [--mime-encoding] [--mime-type]
+            [-e testname] [-F separator] [-f namefile] [-m magicfiles] file ...
+       file -C [-m magicfiles]
+       file [--help]
+bandit5@bandit:~/inhere$ ls
+maybehere00  maybehere04  maybehere08  maybehere12  maybehere16
+maybehere01  maybehere05  maybehere09  maybehere13  maybehere17
+maybehere02  maybehere06  maybehere10  maybehere14  maybehere18
+maybehere03  maybehere07  maybehere11  maybehere15  maybehere19
+bandit5@bandit:~/inhere$ du -a
+12      ./maybehere03/.file2
+12      ./maybehere03/spaces file3
+12      ./maybehere03/-file3
+8       ./maybehere03/-file2
+4       ./maybehere03/.file3
+4       ./maybehere03/spaces file1
+4       ./maybehere03/-file1
+4       ./maybehere03/spaces file2
+12      ./maybehere03/.file1
+76      ./maybehere03
+8       ./maybehere19/.file2
+4       ./maybehere19/spaces file3
+8       ./maybehere19/-file3
+8       ./maybehere19/-file2
+4       ./maybehere19/.file3
+8       ./maybehere19/spaces file1
+8       ./maybehere19/-file1
+12      ./maybehere19/spaces file2
+8       ./maybehere19/.file1
+72      ./maybehere19
+12      ./maybehere06/.file2
+8       ./maybehere06/spaces file3
+4       ./maybehere06/-file3
+4       ./maybehere06/-file2
+4       ./maybehere06/.file3
+4       ./maybehere06/spaces file1
+8       ./maybehere06/-file1
+8       ./maybehere06/spaces file2
+4       ./maybehere06/.file1
+60      ./maybehere06
+12      ./maybehere12/.file2
+4       ./maybehere12/spaces file3
+12      ./maybehere12/-file3
+4       ./maybehere12/-file2
+4       ./maybehere12/.file3
+4       ./maybehere12/spaces file1
+12      ./maybehere12/-file1
+4       ./maybehere12/spaces file2
+8       ./maybehere12/.file1
+68      ./maybehere12
+12      ./maybehere16/.file2
+8       ./maybehere16/spaces file3
+8       ./maybehere16/-file3
+8       ./maybehere16/-file2
+4       ./maybehere16/.file3
+12      ./maybehere16/spaces file1
+8       ./maybehere16/-file1
+4       ./maybehere16/spaces file2
+8       ./maybehere16/.file1
+76      ./maybehere16
+4       ./maybehere02/.file2
+4       ./maybehere02/spaces file3
+8       ./maybehere02/-file3
+4       ./maybehere02/-file2
+8       ./maybehere02/.file3
+8       ./maybehere02/spaces file1
+4       ./maybehere02/-file1
+12      ./maybehere02/spaces file2
+8       ./maybehere02/.file1
+64      ./maybehere02
+4       ./maybehere01/.file2
+12      ./maybehere01/spaces file3
+12      ./maybehere01/-file3
+4       ./maybehere01/-file2
+4       ./maybehere01/.file3
+8       ./maybehere01/spaces file1
+8       ./maybehere01/-file1
+8       ./maybehere01/spaces file2
+12      ./maybehere01/.file1
+76      ./maybehere01
+12      ./maybehere17/.file2
+8       ./maybehere17/spaces file3
+8       ./maybehere17/-file3
+4       ./maybehere17/-file2
+8       ./maybehere17/.file3
+12      ./maybehere17/spaces file1
+4       ./maybehere17/-file1
+4       ./maybehere17/spaces file2
+4       ./maybehere17/.file1
+68      ./maybehere17
+8       ./maybehere04/.file2
+8       ./maybehere04/spaces file3
+4       ./maybehere04/-file3
+4       ./maybehere04/-file2
+4       ./maybehere04/.file3
+8       ./maybehere04/spaces file1
+8       ./maybehere04/-file1
+4       ./maybehere04/spaces file2
+4       ./maybehere04/.file1
+56      ./maybehere04
+4       ./maybehere11/.file2
+12      ./maybehere11/spaces file3
+12      ./maybehere11/-file3
+8       ./maybehere11/-file2
+12      ./maybehere11/.file3
+4       ./maybehere11/spaces file1
+4       ./maybehere11/-file1
+4       ./maybehere11/spaces file2
+4       ./maybehere11/.file1
+68      ./maybehere11
+12      ./maybehere09/.file2
+8       ./maybehere09/spaces file3
+8       ./maybehere09/-file3
+4       ./maybehere09/-file2
+4       ./maybehere09/.file3
+8       ./maybehere09/spaces file1
+4       ./maybehere09/-file1
+12      ./maybehere09/spaces file2
+8       ./maybehere09/.file1
+72      ./maybehere09
+4       ./maybehere15/.file2
+4       ./maybehere15/spaces file3
+8       ./maybehere15/-file3
+12      ./maybehere15/-file2
+4       ./maybehere15/.file3
+4       ./maybehere15/spaces file1
+12      ./maybehere15/-file1
+4       ./maybehere15/spaces file2
+4       ./maybehere15/.file1
+60      ./maybehere15
+4       ./maybehere08/.file2
+12      ./maybehere08/spaces file3
+4       ./maybehere08/-file3
+4       ./maybehere08/-file2
+4       ./maybehere08/.file3
+4       ./maybehere08/spaces file1
+4       ./maybehere08/-file1
+4       ./maybehere08/spaces file2
+8       ./maybehere08/.file1
+52      ./maybehere08
+4       ./maybehere14/.file2
+4       ./maybehere14/spaces file3
+4       ./maybehere14/-file3
+12      ./maybehere14/-file2
+8       ./maybehere14/.file3
+4       ./maybehere14/spaces file1
+8       ./maybehere14/-file1
+4       ./maybehere14/spaces file2
+4       ./maybehere14/.file1
+56      ./maybehere14
+8       ./maybehere00/.file2
+4       ./maybehere00/spaces file3
+8       ./maybehere00/-file3
+12      ./maybehere00/-file2
+8       ./maybehere00/.file3
+8       ./maybehere00/spaces file1
+4       ./maybehere00/-file1
+8       ./maybehere00/spaces file2
+4       ./maybehere00/.file1
+68      ./maybehere00
+4       ./maybehere18/.file2
+8       ./maybehere18/spaces file3
+4       ./maybehere18/-file3
+4       ./maybehere18/-file2
+4       ./maybehere18/.file3
+8       ./maybehere18/spaces file1
+12      ./maybehere18/-file1
+8       ./maybehere18/spaces file2
+8       ./maybehere18/.file1
+64      ./maybehere18
+8       ./maybehere05/.file2
+12      ./maybehere05/spaces file3
+4       ./maybehere05/-file3
+8       ./maybehere05/-file2
+8       ./maybehere05/.file3
+4       ./maybehere05/spaces file1
+4       ./maybehere05/-file1
+4       ./maybehere05/spaces file2
+4       ./maybehere05/.file1
+60      ./maybehere05
+4       ./maybehere07/.file2
+4       ./maybehere07/spaces file3
+4       ./maybehere07/-file3
+4       ./maybehere07/-file2
+4       ./maybehere07/.file3
+8       ./maybehere07/spaces file1
+4       ./maybehere07/-file1
+12      ./maybehere07/spaces file2
+4       ./maybehere07/.file1
+52      ./maybehere07
+4       ./maybehere10/.file2
+4       ./maybehere10/spaces file3
+4       ./maybehere10/-file3
+4       ./maybehere10/-file2
+4       ./maybehere10/.file3
+12      ./maybehere10/spaces file1
+4       ./maybehere10/-file1
+4       ./maybehere10/spaces file2
+8       ./maybehere10/.file1
+52      ./maybehere10
+12      ./maybehere13/.file2
+8       ./maybehere13/spaces file3
+4       ./maybehere13/-file3
+4       ./maybehere13/-file2
+8       ./maybehere13/.file3
+4       ./maybehere13/spaces file1
+4       ./maybehere13/-file1
+4       ./maybehere13/spaces file2
+8       ./maybehere13/.file1
+60      ./maybehere13
+1284    .
+bandit5@bandit:~/inhere$ du -b
+55021   ./maybehere03
+54678   ./maybehere19
+43400   ./maybehere06
+44438   ./maybehere12
+57233   ./maybehere16
+50730   ./maybehere02
+53375   ./maybehere01
+43901   ./maybehere17
+35993   ./maybehere04
+42429   ./maybehere11
+57123   ./maybehere09
+35179   ./maybehere15
+35827   ./maybehere08
+32865   ./maybehere14
+49973   ./maybehere00
+44838   ./maybehere18
+40561   ./maybehere05
+33920   ./maybehere07
+32522   ./maybehere10
+40360   ./maybehere13
+888462  .
+bandit5@bandit:~/inhere$ du -a -b | grep 1033
+1033    ./maybehere07/.file2
+bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
