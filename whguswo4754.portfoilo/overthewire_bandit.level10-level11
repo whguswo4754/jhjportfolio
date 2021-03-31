@@ -1,0 +1,4 @@
+bandit10@bandit:~$ ls
+data.txt
+bandit10@bandit:~$ base64 --decode data.txt
+The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
