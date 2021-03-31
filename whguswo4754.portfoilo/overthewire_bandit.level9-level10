@@ -1,0 +1,41 @@
+#첫 번째 방법
+bandit9@bandit:~$ ls
+data.txt
+bandit9@bandit:~$ ls -alh
+total 40K
+drwxr-xr-x  2 root     root    4.0K May  7  2020 .
+drwxr-xr-x 41 root     root    4.0K May  7  2020 ..
+-rw-r--r--  1 root     root     220 May 15  2017 .bash_logout
+-rw-r--r--  1 root     root    3.5K May 15  2017 .bashrc
+-rw-r-----  1 bandit10 bandit9  19K May  7  2020 data.txt
+-rw-r--r--  1 root     root     675 May 15  2017 .profile
+bandit9@bandit:~$ cat data.txt | grep -a "==="
+▒
+v▒▒7▒▒[d4▒▒▒▒[▒E▒ed{s▒5▒d!▒۫*.▒d▒d▒$6▒▒1Td▒=▒▒{▒▒▒▒a▒▒▒
+                                ▒▒▒▒C▒r▒A▒G▒▒1▒~▒▒趤▒▒▒b▒▒2%▒0`c▒▒*▒!`3r▒▒▒▒▒/▒ZȆڎ▒xʟ▒▒}▒▒▒▒▒}$▒x?X▒▒7▒▒ҟj▒▒▒Hͽ▒▒黜`▒▒&
+                                       ▒Q9▒܅J▒▒//M$▒a▒^▒;yzEt!▒▒▒WpU~eϸ`Rn,I▒▒▒MT▒Ձ▒B$1▒,▒ɚџ|\{ɘ▒▒V▒媼▒▒G▒7▒4@[▒▒▒tk▒4Ӷ▒▒hob▒▒X▒▒Q▒▒▒▒O▒`▒<!▒▒L▒VSXdKi▒▒um▒▒m▒\▒WB|{▒,x▒▒▒vd▒▒Т▒▒▒xIY.}▒м&F▒,0f▒▒▒▒▒RV{▒▒l▒▒▒▒@^▒S▒Jp▒`EO%s▒▒▒~֬▒c▒}▒▒▒o?/{▒▒▒^▒▒P8Щ9d
+▒▒▒%▒9݈▒G]vQ▒▒▒ٚ▒▒▒n▒R▒Cm▒p▒▒▒▒▒~▒{▒r'▒H(-▒-r▒ZƯs▒xz▒▒▒▒]+aƽ▒g▒▒▒|A▒▒x*▒_f▒^▒▒[Ro▒▒▒r-4f▒▒3,U▒tG▒▒y▒*
+▒▒▒▒▒GhG$▒▒▒========== the*2i"4▒d▒▒k▒D                                         <▒}z▒▒-F!▒▒▒V▒O▒^▒▒Z▒^▒XE▒{.▒▒S▒▒i&▒O▒Z▒ޮ▒IZ▒▒▒▒/ϭ·▒▒bc®qd▒▒`ݤ"▒,▒▒▒▒▒R▒▒t▒68}j▒▒^▒▒t<▒▒▒▒▒wC▒ր@▒J▒▒W▒Ԟt▒j▒▒恂z▒4▒▒▒▒E%ڂ▒a▒▒f▒Q~a`%▒h▒3֭▒▒4▒#
+8%▒▒F▒{▒"2▒▒▒T▒3▒▒▒z▒▒▒
+▒▒`%KƔ▒▒E▒▒▒o▒▒n▒d▒Y|▒▒▒▒W▒x▒▒Ǖ========== password▒b▒▒;▒#6▒▒▒Q▒c▒a▒▒#|-l▒G}`:▒(▒▒g
+2▒UW▒|[▒▒▒▒▒▒▒X▒
+4#N▒<▒▒V▒▒o▒Z▒f▒U▒Qj▒sL▒▒▒▒▒E񏾐E▒▒▒▒l▒▒D▒'▒q▒@▒▒k▒▒{5'▒*▒▒▒)=▒bD▒|▒9▒▒x▒D2?     ▒u▒9▒m▒▒▒<▒▒s▒Y▒Q▒π▒▒▒WLz▒▒b▒▒▒HV▒▒▒T▒▒▒▒▒f▒Z▒▒#r▒▒8E/▒N▒▒ƨ▒▒▒▒<c▒O▒▒O▒ {▒Tm▒j▒A▒%Ɩ▒▒MDQ▒@▒q▒s▒j▒▒▒Z)========== is▒▒z(▒▒ÿx
+.▒▒{▒▒`▒W▒F[▒#}▒b▒▒▒@H$R ͤb▒▒▒LH/▒▒▒     ▒▒▒▒p▒̕;▒▒gM`▒o▒x[U*ʾcj▒`▒▒▒▒@Ӱ▒e▒g%▒&  N▒zt=▒kd▒▒▒S$Y▒r▒[▒{/;7▒M▒
+▒<ł▒Wŉ'▒:V`Ƴ▒▒?6▒.▒▒M▒▒5I▒3d▒▒▒▒▒F▒r%z$c`▒W▒r▒-▒▒▒C !n▒{▒i▒\xhw▒fR▒(▒6݈▒▒▒▒▒▒k▒H▒z▒ ▒▒<▒ŸTCg▒_HN?▒1\:▒▒6▒▒▒u▒/T▒\▒񘨇Y▒p▒▒q▒&▒b[▒(<▒▒@PN▒▒▒'U▒LE▒,ťF]̛K▒▒▒>▒▒8▒▒;
+                                                                             ▒▒d▒K/▒▒M▒▒+▒3▒▒▒2`<▒▒lr▒▒Y'▒,▒
+                            t ▒R#▒▒
+                                   ▒▒▒▒▒▒2A▒▒▒
+▒ui▒▒{▒`z▒G鉵#Cځh▒▒▒Q|L▒
+pOו▒r▒`▒0▒.V▒▒▒m▒▒▒׸▒▒▒R▒▒▒▒v▒8`▒▒▒▒X▒▒�▒wόw▒▒:▒p^▒.▒e▒▒▒ao▒=▒Ψ+V▒Y▒~c▒;▒\▒▒3▒▒d▒▒I▒`▒̰▒ۗ~▒▒@Ief▒▒9▒;▒▒▒▒3▒▒E▒?Z▒Ag▒▒▒▒ ▒>e▒5▒z/▒▒▒]▒▒@▒W.l▒▒▒@y▒t▒▒▒▒r]▒ĉ       !▒▒▒7n▒1▒▒?Qg▒▒/▒▒Cն▒y3▒8▒▒▒▒y~]▒q7진LѮSc▒
+▒˹];`▒▒@Ģ▒▒fRk4Ck▒Z▒lp{▒ē▒▒▒F▒▒▒9▒▒5▒h▒▒▒k4m?W▒jۮV|+▒J▒▒H▒,▒R▒▒▒▒▒7Y{▒`▒]▒▒ LVt▒V▒ۭN.=ѓ▒Jq{`▒՛9▒z▒▒L▒▒▒Ov▒D▒▒▒▒7▒8&יV#▒:▒▒▒▒l▒؇51▒T▒ɝ▒hU▒I▒e▒8▒▒▒ŵד$▒͚
+▒▒3▒▒T▒▒t▒▒▒ѿn▒▒u▒▒.▒#▒▒▒!6▒t▒6IM*▒5▒/▒`D▒      mL▒▒a▒▒TS▒˖▒▒*▒▒x▒▒▒▒▒▒S▒y▒LN▒▒
+go'▒
+▒▒▒▒SI▒▒▒▒"#?▒s▒▒F[[▒p ▒s)욱▒<▒4▒▒▒x▒Xz▒▒▒4▒▒▒▒▒y▒&^▒▒▒ͱ▒/1▒▒ԅ▒▒▒▒▒(▒[▒ R▒
+                                                                          L▒▒▒▒D▒d5▒N▒\▒H1▒Kt▒.▒▒1▒▒H▒Ȃ&========== truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+#두 번째 방법
+bandit9@bandit:~$ strings data.txt | grep "==="
+========== the*2i"4
+========== password
+Z)========== is
+&========== truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
